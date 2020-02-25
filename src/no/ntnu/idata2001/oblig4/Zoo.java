@@ -5,7 +5,7 @@ import java.util.Collection;
 
 public class Zoo {
   private final String name;
-  private Collection<Animal> animals = new ArrayList<Animal>();
+  private Collection<Animal> animals = new ArrayList<>();
 
   public Zoo(String name) {
     this.name = name;
