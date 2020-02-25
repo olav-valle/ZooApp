@@ -1,6 +1,6 @@
 package no.ntnu.idata2001.oblig4;
 
-public class Crocodile extends Animal implements Walkable, Swimmable{
+public class Crocodile extends Oviparous implements Walkable, Swimmable{
 
   public Crocodile(String name, int code) {
     super(name, code);
@@ -8,14 +8,14 @@ public class Crocodile extends Animal implements Walkable, Swimmable{
 
   @Override
   public boolean swim() {
+    System.out.println("The crocodile swam.");
     return false;
   }
 
   @Override
   public boolean walk() {
+    System.out.println("The crocodile walked.");
     return false;
   }
 
-  // TODO: 25/02/2020 extend Oviparous
-  // TODO: 25/02/2020 implement Swimmable, Walkable
 }

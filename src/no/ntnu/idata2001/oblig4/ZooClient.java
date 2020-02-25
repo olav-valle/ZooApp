@@ -26,6 +26,6 @@ public class ZooClient {
     animals.add(new Bat("Cistugo ", 3002));
 
     zoo.setAnimals(animals);
-
+// TODO: 25/02/2020 extend this in assignment 2
   }
 }

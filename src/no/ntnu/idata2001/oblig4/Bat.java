@@ -1,6 +1,6 @@
 package no.ntnu.idata2001.oblig4;
 
-public class Bat extends Animal implements Flyable {
+public class Bat extends Mammal implements Flyable {
 
   public Bat(String name, int code) {
     super(name, code);
@@ -8,8 +8,7 @@ public class Bat extends Animal implements Flyable {
 
   @Override
   public boolean fly() {
+    System.out.println("The bat flew.");
     return false;
   }
-  // TODO: 25/02/2020 extend Mammal
-  // TODO: 25/02/2020 implement Flyable
 }
